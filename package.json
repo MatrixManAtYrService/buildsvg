@@ -1,0 +1,15 @@
+{
+  "name": "node-d3-svg",
+  "version": "1.0.0",
+  "description": "A simple D3.js SVG generation example",
+  "type": "module",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "dependencies": {
+    "d3": "^7.9",
+    "d3-node": "^0.2.0",
+    "opentype.js": "^1.3"
+  }
+}

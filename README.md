@@ -18,7 +18,7 @@ That's a shame for many reasons.
 
 I dream of a browser which would let you provide a link to a repeatable build, and would render in its place that build output--hiding the complexity of the build.
 But then if you right clicked on the output and selected "inspect", you'd be given the opportunity to tinker with the data or the code that rendered the image.
-I realize that this can be done in a browser, but using nix opens the door for a wider variety of languages to participate.
+I realize that web pages can be build which render an image in a transparent way, but using nix opens the door for a wider variety of languages to participate.
 
 It's so easy to (accidentally, or maliciously) mislead people with a data visualization.
 I wish it were considered unethical to publish one without also publishing its complete build.

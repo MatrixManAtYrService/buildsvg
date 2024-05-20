@@ -16,8 +16,9 @@ The built svg will be in `result/output.svg`.
 If somebody shares an image with you which visualizes some data, you can tinker with the image, but you can't see the raw data and you cant tinker with the code that generated it.
 That's a shame for many reasons.
 
-I dream of a browser which would render links to repeatable builds of images as a plain image--hiding the complexity of the build.
-But then if you right clicked on those images and selected "inspect", you'd be given the opportunity to tinker with the data or the code that rendered the image.
+I dream of a browser which would let you provide a link to a repeatable build, and would render in its place that build output--hiding the complexity of the build.
+But then if you right clicked on the output and selected "inspect", you'd be given the opportunity to tinker with the data or the code that rendered the image.
+I realize that this can be done in a browser, but using nix opens the door for a wider variety of languages to participate.
 
 It's so easy to (accidentally, or maliciously) mislead people with a data visualization.
 I wish it were considered unethical to publish one without also publishing its complete build.

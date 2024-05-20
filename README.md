@@ -7,7 +7,7 @@ Specifically, you can use it to build this svg:
 
 Just insure nix is installed (you have to enable flakes and the nix command separately) and run:
 ```
-nix build github:MatrixManAtYrService/buildsvg#.svg
+nix build github:MatrixManAtYrService/buildsvg#svg
 ```
 The built svg will be in `result/output.svg`.
 
